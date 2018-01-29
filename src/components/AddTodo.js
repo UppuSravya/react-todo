@@ -5,8 +5,8 @@ export default class AddTodo extends Component {
       return (
          <div>
             <input type = 'text' ref = 'input' />
-            {//<h1 ref='myH1' ></h1>
-            }
+            <h1 ref='myH1' ></h1>
+
             <button onClick = { (e) => this.handleClick(e) }>
                Add
             </button>
